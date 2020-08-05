@@ -19,17 +19,17 @@ import ChromeSort
 
 alist = [4, 9, 0, 45, 0, 1]
 
-alist = alist.ChromeSort.sort
+alist = ChromeSort.Sort(alist)
 
 ```
 or
 
 ```python
-from ChromeSort import Sort (optional, you could do as sort)
+from ChromeSort import Sort (optional, you could do as sort) #Might cause namespace errors
 
 alist = [4, 9, 0, 45, 0, 1]
 
-alist = alist.Sort
+alist = Sort(alist)
 
 ```
 
